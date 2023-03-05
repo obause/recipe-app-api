@@ -52,7 +52,6 @@
     },
     // Jupyter Notebook
     "jupyter.useDefaultConfigForJupyter": true,
-    "jupyter.interactiveWindowMode": "perFile",
     "jupyter.themeMatplotlibPlots": true,
     "notebook.compactView": false,
     "notebook.diff.ignoreMetadata": true,
@@ -80,5 +79,6 @@
     "svg.preview.autoOpen": true,
     "errorLens.delay": 1000,
     "errorLens.enabledDiagnosticLevels": ["error", "warning"],
-    "errorLens.enabled": true
+    "errorLens.enabled": true,
+    "jupyter.interactiveWindow.creationMode": "perFile"
   }
